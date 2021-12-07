@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    fevicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- fontawesome cdn   -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--    Custom Css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>TimeTag</title>
+</head>
+<body>
+
+<!-- Topbar Logo Nav section Open -->
+<header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="img-fluid" alt="TimeTag">
+            </a>
+            <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--                <span class="navbar-toggler-icon"></span>-->
+                <i class="fas fa-bars navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TIME & ATTENDANCE </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACCESS CONTROL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BIOMETRIC TECHNOLOGY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-new-color" href="#">CCTV </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-new-color" href="#"> MOBILE APP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-new-color" href="#"> CONTACT</a>
+                    </li>
+                </ul>
+
+                <ul class="myaccount">
+                    <li class="nav-item">
+                        <a class="nav-link myaccount" href="#"> <img src="images/user.png" alt="Account"> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Topbar Logo Nav section Close -->
+
+<!--  Banner SEction Open    -->
+<section id="home" class="banner_wrapper">
+    <div class="container">
+        <div class="video-banner">
+            <div id="light">
+                <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                <video id="VisaChipCardVideo" width="100%" controls>
+                    <source src="images/video/banner-video.mp4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                </video>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6 my-0 my-md-5 my-md-0 text-center text-md-start">
+                <h1 class="banner-title   animate__animated animate__zoomIn animate__slow " >CONTROL <span>360° OF YOUR</span> BUSINESS</h1>
+                <p class="banner-title-text animate__animated  animate__zoomIn" >
+                    TIME & ATTENDANCE | ACCESS CONTROL
+                    BIOMETRIC TECHNOLOGY
+                </p>
+                <div class="learn-more-btn-section">
+                    <a class=" learn-more-btn btn-header" href="#about"> contact us <i
+                            class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-6 header-img-section">
+                <div id="fade" onClick="lightbox_close();"></div>
+                <img onclick="lightbox_open();" src="images/slider-banner.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Banner SEction Close    -->
+
+
+<!--  About TimeTag SEction Open    -->
+<section class="about_wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="aboutLeft-image ">
+                    <img src="images/about-img.png" class="img-fluid" alt="TimeTag">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRight-content">
+                    <p><span> TIMETAG </span> IS A PROVIDER OF </p>
+                    <p>CUTTING-EDGE SOFTWARE AND HARDWARE </p>
+                    <p>SOLUTIONS TO ENABLE BUSINESSES TO </p>
+                    <p>ACCURATELY MEASURE & MANAGE THE </p>
+                    <p>PERFORMANCE OF THEIR STAFF MEMBERS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  About TimeTag SEction Cloes     -->
+
+
+<!--  Cost know SEction Open    -->
+
+<section class="cost-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <div class="cost__title">
+                    <h2>WHAT IS THE TRUE COST OF AN <br>
+                        UNRELIABLE OR NON-EXISTENT TIME <br>
+                        & ATTENDANCE SOLUTION?
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 mt-md-5">
+            <div class="col-md-6">
+                <div class="costLeft__content">
+                    <p>Your business could potentially be losing a </p>
+                    <p>significant amount of money per month!</p>
+                    <p><strong>Use our calculator to work out your potential <br> loss per month </strong></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="costRight__calculator">
+                    <h3 class="costRight-title">How many staff members</h3>
+                    <input type="text" class="form-control">
+                    <a href="#" class="btn"> next <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Cost know SEction Cloes     -->
+
+
+<!--  THE TOP 10 PROFIT THIEVES SEction Open     -->
+<section class="topProfit_wrapper">
+    <div class="container text-center">
+        <div class="topProfit_title">
+            <h2>THE TOP 10 PROFIT THIEVES</h2>
+        </div>
+        <div class="topProfit__items">
+            <div class="topProfit-item">
+                <img src="images/topprofit/buddy-clock.svg" alt="">
+                <p>Buddy Clocking</p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/late-arrivals.svg" alt="">
+                <p>Late Arrivals <br>
+                    Early Departures
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/frequent-smoke.svg" alt="">
+                <p>Frequent & Extended <br>
+                    smoke breaks
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/toilet-breaks.svg" alt="">
+                <p>Frequent and extended <br>
+                    toilet breaks
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/sick-leave.svg" alt="">
+                <p>“Planned” sick leave</p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/unauthorised-overtime.svg" alt="">
+                <p> Unauthorised <br>
+                    overtime
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/time-taken.svg" alt="">
+                <p> Time taken for <br>
+                    manual data capture
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/human-errors.svg" alt="">
+                <p> Human errors in <br>
+                    manual administration
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/audit-trail.svg" alt="">
+                <p>Uncontrolled audit trail <br>
+                    with obvious <br>
+                    repercussions
+                </p>
+            </div>
+            <div class="topProfit-item">
+                <img src="images/topprofit/favours-friends.svg" alt="">
+                <p> Favours for friends e.g. <br>
+                    manipulation of illegal <br>
+                    clockings
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="topProfit_btn">
+            <a href="#">contact us <i class="fas fa-long-arrow-alt-right"></i> </a>
+        </div>
+    </div>
+</section>
+<!--  THE TOP 10 PROFIT THIEVES SEction Cloes     -->
+
+<!--  WHAT WE OFFER  SEction Open      -->
+<section class="weOffer_wrapper text-center ">
+    <!--offer section area-->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-10">
+                  <div class="offer-area section">
+                      <div class="offer-tabs ">
+                          <div class="offerslide ">
+
+                              <div class="offerItem active">
+                                  <h4 class="offerItemTitle hide">ACESS CONTROL </h4>
+                                  <div class="offer-detail">
+                                      <div class="row">
+                                          <div class="col">
+                                              <div class="offer-img">
+                                                  <img src="https://srmahour.github.io/accordian/images/e-commerces_retail_b2b.jpg" alt="" class="img-fluid">
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="offer-content">
+                                                  <h2>ACESS CONTROL</h2>
+                                                  <p>
+                                                      Protect your business assets and staff with sophisticated electronic
+                                                      access control. As a business  have full control as to whom and
+                                                      during which hours of the day, they can access your office sites.
+                                                      The access control hardware is  linked to your time & attendance
+                                                      software thereby ensuring a seamless end-to-end solution for
+                                                      detailed time-keeping.
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="offerItem" >
+                                  <h4 class="offerItemTitle">MOBILE APP </h4>
+                                  <div class="offer-detail">
+                                      <div class="row">
+                                          <div class="col">
+                                              <div class="offer-img">
+                                                  <img src="https://srmahour.github.io/accordian/images/healthcare_itness.jpg" alt="" class="img-fluid">
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="offer-content">
+                                                  <h2> MOBILE APP </h2>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing
+                                                      and typesetting industry. Lorem Ipsum has been
+                                                      the industry's standard dummy text ever since the
+                                                      1500s, when an unknown printer took a galley of
+                                                      type and scrambled it to make a type specimen
+                                                      book. It has survived not only five centuries, but
+                                                      also the leap into electronic typesetting.</p>
+                                                  <a href="javascript:;">Learn More </i></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="offerItem">
+                                  <h4 class="offerItemTitle">BIOMETRIC TECHNOLOGY</h4>
+                                  <div class="offer-detail">
+                                      <div class="row">
+                                          <div class="col">
+                                              <div class="offer-img">
+                                                  <img src="https://srmahour.github.io/accordian/images/real_estate_property.jpg" alt="" class="img-fluid">
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="offer-content">
+                                                  <h2>BIOMETRIC TECHNOLOGY</h2>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing
+                                                      and typesetting industry. Lorem Ipsum has been
+                                                      the industry's standard dummy text ever since the
+                                                      1500s, when an unknown printer took a galley of
+                                                      type and scrambled it to make a type specimen
+                                                      book. It has survived not only five centuries, but
+                                                      also the leap into electronic typesetting.</p>
+                                                  <a href="javascript:;">Learn More </i></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="offerItem">
+                                  <h4 class="offerItemTitle">TIME & ATTENDANCE</h4>
+                                  <div class="offer-detail">
+                                      <div class="row">
+                                          <div class="col">
+                                              <div class="offer-img">
+                                                  <img src="https://srmahour.github.io/accordian/images/banking_finance_insurance.jpg" alt="" class="img-fluid">
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="offer-content">
+                                                  <h2>TIME & ATTENDANCE</h2>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing
+                                                      and typesetting industry. Lorem Ipsum has been
+                                                      the industry's standard dummy text ever since the
+                                                      1500s, when an unknown printer took a galley of
+                                                      type and scrambled it to make a type specimen
+                                                      book. It has survived not only five centuries, but
+                                                      also the leap into electronic typesetting.</p>
+                                                  <a href="javascript:;">Learn More </i></a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="weoffer_rightTitle">
+                      <h2>What We Offer </h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!--offer section area end-->
+</section>
+<!--  WHAT WE OFFER  SEction Cloes     -->
+
+
+<!--  OUR COMPANY SEction Open     -->
+<section class="ourCompany_wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <div class="ourCompany__left">
+                    <img src="images/ourcompany-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="ourCompany__right">
+                    <h2 class="ourCompany__right-title">Our Company </h2>
+                    <p>
+                        TimeTag is a provider of cutting-edge cloud-based software and hardware solutions to enable
+                        businesses to accurately measure and manage the performance of their staff members.
+                    </p>
+
+                    <a href="#">contact us <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  OUR COMPANY SEction Cloes     -->
+
+<!--  Contact Form SEction Open     -->
+<section class="contact_wrapper">
+    <div class="container">
+        <div class="contact-from-title text-center">
+            <h2>HOW CAN WE HELP?</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="row g-3">
+                    <div class="col-md-12 ">
+                        <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+
+                    </div>
+
+                    <div class="col-12">
+
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="col-12">
+
+                        <input type="text" class="form-control" id="inputPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                  placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                I accept the privacy policy.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn home-from-btn">contact us <i
+                                class="fas fa-long-arrow-alt-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Contact Form SEction Close     -->
+
+<!--  Footer  SEction Open     -->
+
+<section class="footer_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-0 offset-md-4">
+                <div class="footer__contactInfo">
+                    <ul>
+                        <li>+27 31 535 7231</li>
+                        <li>+27 31 535 7001</li>
+                        <li>+27 82 458 7604</li>
+                        <li>sales@timetag.co.za</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer__address">
+                    <ul>
+                        <li>Head Office 21 Aurora Drive,</li>
+                        <li>1st Floor , Liberty Life Building</li>
+                        <li>Umhlanga Ridge, 4301.</li>
+                        <li>PO Box 25386, Gateway, 4321</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Footer  SEction Close     -->
+
+
+<!-- jquery cdn -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+
+</body>
+</html>

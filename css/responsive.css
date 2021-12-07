@@ -1,0 +1,173 @@
+@media (min-width: 1500px) {
+
+    .banner_wrapper::before {
+        width: 64%;
+    }
+}
+
+
+@media (max-width: 1399.98px) {
+    ...
+}
+
+@media (max-width: 1199.98px) {
+    ...
+}
+
+@media (max-width: 991.98px) {
+
+    /*    ==== navbar section ==== */
+    .header_wrapper .navbar-toggler:hover,
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: unset;
+        outline: unset;
+        border: unset;
+    }
+
+    .header_wrapper .navbar-collapse {
+        background: var(--primary-bg-color);
+        -webkit-box-shadow: 0px 8px 11px -6px rgba(0, 0, 0, 0.43);
+        box-shadow: 0px 8px 11px -6px rgba(0, 0, 0, 0.43);
+    }
+
+    .header_wrapper .nav-item .nav-new-color {
+        color: var(--white-text-color);
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .header_wrapper .nav-item {
+        padding-top: 1rem;
+    }
+
+    .header_wrapper .navbar {
+        background: var(--primary-bg-color);
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+    .banner_wrapper::before {
+        width: 100%;
+    }
+
+    /*    the top profit */
+    .topProfit_wrapper .topProfit__items .topProfit-item {
+        flex: 0 0 50%;
+    }
+
+    /*    how many staff */
+    .cost-wrapper .costRight__calculator {
+        outline-offset: 2px;
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    /* ---- navbar ------  */
+    .banner_wrapper .banner-title {
+        font-size: 35px;
+    }
+
+    .banner_wrapper .banner-title-text {
+        font-size: 16px;
+        margin-bottom: 10px
+    }
+
+    .banner_wrapper .learn-more-btn-section {
+        padding: 9px 18px;
+
+    }
+
+    .banner_wrapper {
+        padding: 160px 0 50px;
+    }
+
+    .about_wrapper .aboutRight-content p {
+        font-size: 16px;
+    }
+
+    .about_wrapper .aboutRight-content p > span {
+        font-size: 20px;
+    }
+
+    /*     cost wrapper */
+    .cost-wrapper .cost__title h2 {
+        font-size: 20px;
+    }
+
+    .cost-wrapper {
+        margin-top: 40px;
+    }
+
+    /*    how many staff */
+    .cost-wrapper .costLeft__content p {
+        font-size: 16px;
+    }
+
+
+    .cost-wrapper .costLeft__content p > strong {
+        font-size: 16px;
+    }
+
+    .cost-wrapper .costRight__calculator .costRight-title {
+        font-size: 20px;
+    }
+
+    /*    top profit */
+    .topProfit_wrapper .topProfit_title > h2 {
+        font-size: 20px;
+    }
+
+    /*     our company */
+    .ourCompany_wrapper .ourCompany__right .ourCompany__right-title {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    /*    contact form */
+    .contact_wrapper .contact-from-title h2 {
+        font-size: 20px;
+    }
+
+    .contact_wrapper .form-check label {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
