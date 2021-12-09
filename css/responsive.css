@@ -46,6 +46,16 @@
     .header_wrapper .navbar {
         background: var(--primary-bg-color);
     }
+
+    .trueCost_wrapper .calculations__inner {
+        position: unset;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .trueCost_wrapper {
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -65,6 +75,19 @@
         outline-offset: 2px;
         margin-top: 25px;
     }
+
+    /*   time And Attendance page banner */
+    .pageBanner_wrapper::before {
+        width: 100%;
+    }
+    .trueCost_image {
+        margin-top: 35px;
+    }
+
+    .pageBanner_wrapper {
+        padding: 160px 0 46px;
+    }
+
 }
 
 
@@ -138,6 +161,29 @@
 
     .contact_wrapper .form-check label {
         font-size: 16px;
+    }
+
+    .pageBanner_wrapper .pageBanner_content h1 {
+        font-size: 35px;
+    }
+
+    .pageBanner_wrapper .pageBanner_content p {
+        font-size: 16px;
+    }
+
+    .pageBanner_wrapper .pageBanner_content .pageBanner_btn a {
+        margin-top: unset;
+    }
+
+    .trueCost_wrapper .trueCost__title h2 {
+        font-size: 20px;
+    }
+    .page_calc .costRight-title{
+        font-size: 20px;
+    }
+
+    .page_calc {
+        outline-offset: 2px;
     }
 }
 
