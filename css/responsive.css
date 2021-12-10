@@ -56,6 +56,28 @@
     .trueCost_wrapper {
         padding-bottom: 50px;
     }
+
+    .header_wrapper .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .page_nav_wrapper .nav-item .nav-link {
+        color: var(--white-text-color);
+    }
+
+    .page_nav_wrapper .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .header_scrolled .nav-item .nav-link {
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link {
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link .myaccount {
+        fill: var(--white-text-color);
+    }
 }
 
 
@@ -184,6 +206,21 @@
 
     .page_calc {
         outline-offset: 2px;
+    }
+
+    .trueCost_wrapper .calculations__inner {
+        padding: 25px;
+    }
+    .ta__btm .ta__btm-right {
+        max-width: 100%;
+    }
+
+    .ta__btm .ta__btm-left h2 {
+        font-size: 20px;
+    }
+
+    .ta__btm .ta__btm-right {
+        font-size: 16px;
     }
 }
 
