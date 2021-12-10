@@ -550,10 +550,10 @@ a {
     position: relative;
     -webkit-transition: width .5s;
     transition: width .5s;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .topProfit_desktop .offer-horizontal-desktop-items .offer__desktop__inactive-content h2{
