@@ -118,6 +118,12 @@
         display: none;
     }
 
+
+    .access_control__plat .ta__btm-right_inner {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
 }
 
 
@@ -194,7 +200,7 @@
     }
 
     .pageBanner_wrapper .pageBanner_content h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .pageBanner_wrapper .pageBanner_content p {
@@ -228,6 +234,10 @@
     }
 
     .ta__btm .ta__btm-right {
+        font-size: 16px;
+    }
+
+    .access_control__plat .ta__btm-left h2 {
         font-size: 16px;
     }
 }
