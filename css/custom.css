@@ -562,7 +562,8 @@ a {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
-    font-size: 3rem;
+    font-size: 25px;
+    font-weight: bold;
     line-height: 0;
     margin-bottom: 0;
     color: #fff;
@@ -574,23 +575,24 @@ a {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
+.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content h2{
+    color: var(--dark-text-color) !important;
+}
 .topProfit_desktop .accordion-desktop-icon{
     height: 55px;
     width: 55px;
 }
-
-
 
 .offer__desktop__inactive-content {
     opacity: 1;
     position: absolute;
     left: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     height: 100%;
     align-items: center;
+    padding: 35px;
 }
 
  .offer__desktop__active-content {
@@ -598,8 +600,13 @@ a {
      transition: opacity 0.5s;
      cursor: default;
      display: none;
+     background-color: var(--primary-bg-color);
+     height: 100%;
  }
-
+.top__card-images {
+    display: flex;
+    justify-content: space-between;
+}
 .offer__desktop__inactive-content{
     left:unset;
 }
@@ -637,13 +644,53 @@ a {
 }
 
 
+.offer__desktop__active-content .feature-img-card {
+    max-height: 200px;
+}
+.offer__desktop__active-content .accordion__desktop-icon {
+   height: 60px;
+    margin: 25px;
+}
+
+.accordition__offer-desktop .card__inner-content {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 35px;
+    color: var(--white-text-color);
+}
+
+.topProfit_mobile {
+    display: none;
+}
 
 
 
+.desktop-layout .card__inner-rightTitle h2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0;
+    margin-bottom: 0;
+    color: var(--main-text-color);
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
-
-
-
+.card__inner-rightTitle  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 
 
@@ -1418,4 +1465,59 @@ Banner SEction
     background-color: var(--primary-bg-color);
     padding: 20px;
     font-weight: 700;
+}
+
+
+/*
+======================================================================================
+  *************************  Access Control  PAGE **********************
+======================================================================================
+*/
+
+
+
+/*
+===============================
+  after banner
+================================
+*/
+
+
+.access_control__plat .ta__btm-right {
+    padding-bottom: 35px;
+    font-size: 20px;
+    background-color: var(--primary-bg-color);
+}
+
+
+.access_control__plat .ta__btm-right_inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+
+}
+.access_control__plat .ta__btm-left {
+    position: relative;
+
+}
+
+.access_control__plat .ta__btm-left h2 {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    color: #18afb4;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    background-color: #FFF;
+    padding: 20px;
+    font-weight: 700;
+}
+.access_control__plat .ta__btm-left img{
+     max-height: 750px;
 }

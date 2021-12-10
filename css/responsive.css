@@ -110,6 +110,14 @@
         padding: 160px 0 46px;
     }
 
+    .topProfit_mobile {
+        display: block;
+    }
+
+    .topProfit_desktop {
+        display: none;
+    }
+
 }
 
 
