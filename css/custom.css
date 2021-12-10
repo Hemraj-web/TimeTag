@@ -580,9 +580,7 @@ a {
     width: 55px;
 }
 
-.topProfit_desktop .offer-horizontal-desktop__item-1 {
-    background-color: red;
-}
+
 
 .offer__desktop__inactive-content {
     opacity: 1;
@@ -595,26 +593,55 @@ a {
     align-items: center;
 }
 
-.topProfit_desktop .offer-horizontal-desktop__item-2{
-     background-color: blue;
-}
-
-.topProfit_desktop .offer-horizontal-desktop__item-3{
-    background: #0c4128;
-}
-
-.topProfit_desktop .offer-horizontal-desktop__item-4{
-    background: #6a1a21;
-}
-
-
-
  .offer__desktop__active-content {
      opacity: 0;
      transition: opacity 0.5s;
      cursor: default;
      display: none;
  }
+
+.offer__desktop__inactive-content{
+    left:unset;
+}
+.topProfit_desktop .offer-horizontal-desktop__item-1{
+    align-items: flex-end;
+}
+.offer-horizontal-desktop__item-1 .offer__desktop__inactive-content{
+    width: 100%;
+    background: var(--primary-bg-color);
+    height: 100%;
+}
+.topProfit_desktop .offer-horizontal-desktop__item-2{
+    align-items: flex-end;
+}
+.offer-horizontal-desktop__item-2 .offer__desktop__inactive-content{
+    width: 100%;
+    background: var(--dark-bg-color);
+    height:90%;
+}
+.topProfit_desktop .offer-horizontal-desktop__item-3{
+    align-items: flex-end;
+}
+.offer-horizontal-desktop__item-3 .offer__desktop__inactive-content{
+    width: 100%;
+    background: var(--dark-bg-50);
+    height: 80%;
+}
+.topProfit_desktop .offer-horizontal-desktop__item-4{
+    align-items: flex-end;
+}
+.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content{
+    width: 100%;
+    background: var(--dark-bg-25);
+    height: 70%;
+}
+
+
+
+
+
+
+
 
 
 
