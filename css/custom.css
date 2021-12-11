@@ -118,6 +118,12 @@ a {
     margin: 0 -10px;
 }
 
+.header_wrapper .nav-item:last-child  .nav-link::after{
+    opacity: 0;
+}
+
+
+
 
 .header_wrapper .nav-item .nav-new-color {
     color: var(--main-text-color);
