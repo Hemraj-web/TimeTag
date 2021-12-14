@@ -11,6 +11,8 @@
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!--    swiper css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!-- animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- fontawesome cdn   -->
@@ -55,7 +57,7 @@
                         <a class="nav-link nav-new-color" href="cctv.html">CCTV </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-new-color" href="biometric-technology.html"> MOBILE APP</a>
+                        <a class="nav-link nav-new-color" href="mobile-app.html"> MOBILE APP</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-new-color" href="#"> CONTACT</a>
@@ -89,10 +91,10 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="pageBanner_content">
-                    <h1> ACCESS <br> CONTROL </h1>
+                    <h1> BIOMETRIC <br> TECHNOLOGY </h1>
                     <p> Timetag is a provider of cutting-edge software and hardware solutions to enable businesses to
-                        accurately measure & manage the performance of
-                        their staff members.</p>
+                        accurately
+                        measure & manage the performance of their staff members. </p>
                     <div class="pageBanner_btn">
                         <a href="#">Contact Us <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
@@ -109,34 +111,90 @@
 <!--  Banner SEction Close    -->
 
 
-<!--  Access Control SEction Open     -->
-<section class="access_control__plat">
-    <div class="container-fluid p-0">
-        <div class="row g-0">
-
-            <div class="col-12 col-md-6 p-0 ta__btm-right">
-                <div class="ta__btm-right_inner">
-                    <p> Protect your business assets and staff with sophisticated electronic access control. As a
+<!--  Mobile App SEction Open     -->
+<section class="ta__btm">
+    <div class="container-fluid ">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 p-0 ">
+                <div class="ta__btm-left">
+                    <img src="images/bm-img.jpg" class="img-fluid" alt="">
+                    <h2>BIOMETRIC TECHNOLOGY</h2>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 px-md-5  pt-5 pt-md-0">
+                <div class="ta__btm-right">
+                    <p>Protect your business assets and staff with sophisticated electronic access control. As a
                         business have full control as to whom and
                         during which hours of the day, they can access your office sites.
                     </p>
                     <p>
                         The access control hardware is linked to your time & attendance software thereby ensuring a
-                        seamless end-to-end solution for detailed time-keeping.
+                        seamless end-to-end solution
+                        for detailed time-keeping.
                     </p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 p-0">
-                <div class="ta__btm-left">
-                    <img src="images/access-control-page.jpg" class="img-fluid" alt="">
-                    <h2>ACCESS CONTROL </h2>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--  Access Control SEction Cloes     -->
+<!--  Mobile App SEction Close    -->
+<!-- Demo styles -->
+<style>
+
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+<!-- This PAge Slider Open -->
+ <section class="carusole-page">
+     <div class="container-fluid">
+         <div class="swiper mySwiper">
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide">Slide 1</div>
+                 <div class="swiper-slide">Slide 2</div>
+                 <div class="swiper-slide">Slide 3</div>
+                 <div class="swiper-slide">Slide 4</div>
+                 <div class="swiper-slide">Slide 5</div>
+                 <div class="swiper-slide">Slide 6</div>
+                 <div class="swiper-slide">Slide 7</div>
+                 <div class="swiper-slide">Slide 8</div>
+                 <div class="swiper-slide">Slide 9</div>
+             </div>
+             <div class="swiper-scrollbar"></div>
+         </div>
+     </div>
+ </section>
+<!-- This PAge Slider Close -->
+
 
 <!--  Contact Form SEction Open     -->
 <section class="contact_wrapper">
@@ -221,7 +279,8 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="js/bootstrap.bundle.min.js"></script>
-
+<!-- swiper Cdn Scripts -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
 

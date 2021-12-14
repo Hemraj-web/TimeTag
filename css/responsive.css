@@ -78,6 +78,12 @@
     .header_wrapper .nav-item .nav-link .myaccount {
         fill: var(--white-text-color);
     }
+
+    .three-mobile-section img {
+        margin-bottom: -70px;
+    }
+
+
 }
 
 
@@ -122,6 +128,22 @@
     .access_control__plat .ta__btm-right_inner {
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    .absolute-img {
+        opacity: 0;
+    }
+
+    .who-app .who-app__left {
+        max-width: unset;
+    }
+
+    .cctv-benefit .cctv-benefits__list ul {
+        max-width: unset;
+    }
+
+    .cctv-benefit .cctv-benefit--circle {
+        display: none;
     }
 
 }
@@ -239,6 +261,54 @@
 
     .access_control__plat .ta__btm-left h2 {
         font-size: 16px;
+    }
+
+    .covid-health .covid-health__left h2 {
+        font-size: 25px;
+    }
+
+    .covid-health {
+        margin-top: 40px;
+    }
+
+    .covid-health .covid-health__right > img {
+        max-height: 350px;
+    }
+
+    .who-app-left__title {
+        font-size: 25px;
+    }
+
+    .who-app {
+        padding-bottom: unset;
+    }
+
+    .who-app .who-app-main-img {
+        padding-top: 30px;
+    }
+
+    .who-app .list-who-app li {
+        font-size: 16px;
+    }
+
+    .cctv-benefit .cctv-benefits__title h2 {
+        font-size: 20px;
+    }
+
+    .access_control__plat .ta__btm-right {
+        font-size: 16px;
+    }
+    .cctv-benefit .cctv-benefits__list ul {
+        padding-left: 15px;
+    }
+    .cctv-benefit .cctv-benefits__list ul li {
+        font-size: 16px;
+    }
+
+    .cctv-benefit .cctv-benefit__images {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
     }
 }
 

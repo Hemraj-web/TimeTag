@@ -62,7 +62,7 @@ h1 {
 ul, ol {
     margin: 0;
     padding: 0;
-    list-style: none;
+
 }
 
 a {
@@ -95,6 +95,7 @@ a {
 
 .header_wrapper .nav-item {
     margin: 0 10px;
+    list-style-type: none;
 }
 
 .header_wrapper .nav-item .nav-link {
@@ -118,11 +119,9 @@ a {
     margin: 0 -10px;
 }
 
-.header_wrapper .nav-item:last-child  .nav-link::after{
+.header_wrapper .nav-item:last-child .nav-link::after {
     opacity: 0;
 }
-
-
 
 
 .header_wrapper .nav-item .nav-new-color {
@@ -522,9 +521,6 @@ a {
 }
 
 
-
-
-
 /*
 ==========================================================
   WHAT WE OFFER
@@ -537,14 +533,14 @@ a {
 
 
 /* offer desktop layout */
- .topProfit_desktop .accordition__offer-desktop {
-     padding: 0;
-     margin: 0;
-     display: flex;
-     -moz-box-orient: horizontal;
-     -moz-box-direction: normal;
-     flex-direction: row;
- }
+.topProfit_desktop .accordition__offer-desktop {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    flex-direction: row;
+}
 
 .topProfit_desktop .offer-horizontal-desktop-items {
     min-height: 42rem;
@@ -562,7 +558,8 @@ a {
     cursor: pointer;
 }
 
-.topProfit_desktop .offer-horizontal-desktop-items .offer__desktop__inactive-content h2{
+.topProfit_desktop .offer-horizontal-desktop-items .offer__desktop__inactive-content h2 {
+    text-transform: uppercase;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -581,10 +578,12 @@ a {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content h2{
+
+.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content h2 {
     color: var(--dark-text-color) !important;
 }
-.topProfit_desktop .accordion-desktop-icon{
+
+.topProfit_desktop .accordion-desktop-icon {
     height: 55px;
     width: 55px;
 }
@@ -601,60 +600,75 @@ a {
     padding: 35px;
 }
 
- .offer__desktop__active-content {
-     opacity: 0;
-     transition: opacity 0.5s;
-     cursor: default;
-     display: none;
-     background-color: var(--primary-bg-color);
-     height: 100%;
- }
+.offer__desktop__active-content {
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: default;
+    display: none;
+    background-color: var(--primary-bg-color);
+    height: 100%;
+}
+
 .top__card-images {
     display: flex;
     justify-content: space-between;
 }
-.offer__desktop__inactive-content{
-    left:unset;
+
+.offer__desktop__inactive-content {
+    left: unset;
 }
-.topProfit_desktop .offer-horizontal-desktop__item-1{
+
+.topProfit_desktop .offer-horizontal-desktop__item-1 {
     align-items: flex-end;
 }
-.offer-horizontal-desktop__item-1 .offer__desktop__inactive-content{
+
+.offer-horizontal-desktop__item-1 .offer__desktop__inactive-content {
     width: 100%;
     background: var(--primary-bg-color);
     height: 100%;
 }
-.topProfit_desktop .offer-horizontal-desktop__item-2{
+
+.topProfit_desktop .offer-horizontal-desktop__item-2 {
     align-items: flex-end;
 }
-.offer-horizontal-desktop__item-2 .offer__desktop__inactive-content{
+
+.offer-horizontal-desktop__item-2 .offer__desktop__inactive-content {
     width: 100%;
     background: var(--dark-bg-color);
-    height:90%;
+    height: 90%;
 }
-.topProfit_desktop .offer-horizontal-desktop__item-3{
+
+.topProfit_desktop .offer-horizontal-desktop__item-3 {
     align-items: flex-end;
 }
-.offer-horizontal-desktop__item-3 .offer__desktop__inactive-content{
+
+.offer-horizontal-desktop__item-3 .offer__desktop__inactive-content {
     width: 100%;
     background: var(--dark-bg-50);
     height: 80%;
+    text-transform: uppercase;
 }
-.topProfit_desktop .offer-horizontal-desktop__item-4{
+
+.topProfit_desktop .offer-horizontal-desktop__item-4 {
     align-items: flex-end;
 }
-.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content{
+
+.offer-horizontal-desktop__item-4 .offer__desktop__inactive-content {
     width: 100%;
     background: var(--dark-bg-25);
     height: 70%;
 }
 
+.desktop-layout .accordition__offer-desktop .card__inner-content h3 {
+    text-transform: uppercase;
+}
 
 .offer__desktop__active-content .feature-img-card {
     max-height: 200px;
 }
+
 .offer__desktop__active-content .accordion__desktop-icon {
-   height: 60px;
+    height: 60px;
     margin: 25px;
 }
 
@@ -668,7 +682,6 @@ a {
 .mobile-layout__topprofit {
     display: none;
 }
-
 
 
 .desktop-layout .card__inner-rightTitle h2 {
@@ -691,14 +704,14 @@ a {
     transform: rotate(180deg);
 }
 
-.card__inner-rightTitle  {
+.card__inner-rightTitle {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
-.mobile-layout__topprofit .mobile-layout-main__title h2{
+.mobile-layout__topprofit .mobile-layout-main__title h2 {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.2;
@@ -716,15 +729,17 @@ a {
     background-color: var(--dark-bg-50);
     color: var(--white-text-color);
 }
+
 .mobile-layout__topprofit .accordion-four {
     background-color: var(--dark-bg-25);
     color: var(--dark-bg-color);
 }
 
 
-.mobile-layout__topprofit .accordion-item  .accordion-button {
+.mobile-layout__topprofit .accordion-item .accordion-button {
     font-weight: 700;
 }
+
 .mobile-layout__topprofit .accordion-item:first-of-type .accordion-button {
     background-color: var(--primary-bg-color);
     color: var(--white-text-color);
@@ -736,7 +751,7 @@ a {
     box-shadow: unset;
 }
 
-.mobile-layout__topprofit  .accordion-button:not(.collapsed)::after {
+.mobile-layout__topprofit .accordion-button:not(.collapsed)::after {
     content: '\2212';
     font-family: "Font Awesome 5 Free";
     display: inline-block;
@@ -747,7 +762,7 @@ a {
     font-size: 25px;
 }
 
-.mobile-layout__topprofit .accordion-button::after{
+.mobile-layout__topprofit .accordion-button::after {
     content: '\002B';
     color: var(--white-text-color);
     font-family: "Font Awesome 5 Free";
@@ -755,13 +770,6 @@ a {
     background-image: none;
     font-size: 25px;
 }
-
-
-
-
-
-
-
 
 
 /*
@@ -908,6 +916,7 @@ a {
     color: var(--white-text-color);
     font-size: 15px;
     line-height: 2;
+    list-style-type: none;
 }
 
 .footer_wrapper .footer__address {
@@ -916,6 +925,9 @@ a {
     line-height: 2;
 }
 
+.footer_wrapper .footer__address ul li {
+    list-style-type: none;
+}
 
 /*
 ======================================================================================
@@ -1166,7 +1178,7 @@ Banner SEction
 
 .ta__btm .ta__btm-left h2 {
     position: absolute;
-    top:22%;
+    top: 22%;
     right: 0;
     color: var(--white-text-color);
     writing-mode: vertical-rl;
@@ -1174,6 +1186,7 @@ Banner SEction
     background-color: var(--primary-bg-color);
     padding: 20px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -1182,7 +1195,6 @@ Banner SEction
   *************************  Access Control  PAGE **********************
 ======================================================================================
 */
-
 
 
 /*
@@ -1211,6 +1223,7 @@ Banner SEction
     color: #fff;
 
 }
+
 .access_control__plat .ta__btm-left {
     position: relative;
 
@@ -1227,6 +1240,144 @@ Banner SEction
     padding: 20px;
     font-weight: 700;
 }
-.access_control__plat .ta__btm-left img{
-     max-height: 750px;
+
+.access_control__plat .ta__btm-left img {
+    max-height: 750px;
+}
+
+
+/*
+======================================================================================
+  *************************  Mobile App Page  **********************
+======================================================================================
+*/
+
+.covid-health {
+    margin-top: 80px;
+}
+
+.covid-health .covid-health__right > img {
+    max-height: 530px;
+    animation: mobile-flash 5s ease-in-out infinite;
+}
+
+@keyframes mobile-flash {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.covid-health .covid-health__left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.three-mobile-section img {
+    max-height: 540px;
+    position: relative;
+    margin-bottom: -286px;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+/* who app for  */
+.who-app {
+    background-color: var(--primary-bg-color);
+    padding-top: 20%;
+    padding-bottom: 55px;
+}
+
+.who-app .who-app__left {
+    padding-left: 10%;
+    max-width: 80%;
+}
+
+.who-app .list-who-app li {
+    color: var(--white-text-color);
+    line-height: 2;
+    font-size: 20px;
+
+}
+
+.who-app-left__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--white-text-color);
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+.who-app .who-app__right {
+    position: relative;
+}
+
+.absolute-img {
+    position: absolute;
+    z-index: 1;
+    top: -58%;
+    left: 26px;
+    max-width: 320px;
+    opacity: .5;
+}
+
+.who-app .who-app-main-img {
+    position: relative;
+    z-index: 5;
+}
+
+/*  =========== CCTV Benefit Page =================  */
+
+.cctv-benefit {
+    padding: 80px 0;
+}
+
+.cctv-benefit .cctv-benefits__title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.cctv-benefit .cctv-benefits__list ul {
+    max-width: 70%;
+}
+.cctv-benefit .cctv-benefits__list ul li {
+    font-size: 20px;
+    line-height: 2;
+    padding-top: 25px;
+}
+
+
+.cctv-benefit .cctv-benefit__images {
+    position: relative;
+}
+.cctv-benefit .cctv-benefit__images .cctv-benefit-right-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    z-index: 2;
+    position: relative;
+}
+
+
+.cctv-benefit .cctv-benefit--circle {
+   position: absolute;
+    max-width: 250px;
+    right: 22%;
+    top: -27%;
 }
