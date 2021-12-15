@@ -61,20 +61,29 @@ var $ = jQuery.noConflict();
             var target_title = $(this).find('.offer__desktop__inactive-content').html();
             var target_dec = $(this).find('.offer__desktop__active-content').html();
 
+            var target_color = $(this).data("color");
+
             var temp_title = $(".offer-horizontal-desktop__item-1 .offer__desktop__inactive-content").html();
             var temp_dec = $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").html();
+
+            var temp_color =$(".offer-horizontal-desktop__item-1").data("color");
+
             $(".offer-horizontal-desktop__item-1 .offer__desktop__inactive-content").fadeOut(500);
             $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").fadeOut(500);
             setTimeout(function(){
+                $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").css("background",target_color);
                 $(".offer-horizontal-desktop__item-1 .offer__desktop__inactive-content").html(target_title);
                 $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").html(target_dec);
             }, 1000);
 
-            $(".offer-horizontal-desktop__item-1 .offer__desktop__inactive-content").fadeIn(1000);
-            $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").fadeIn(1000);
+            $(this).find('.offer__desktop__inactive-content').css("background",temp_color);
+
+            $(".offer-horizontal-desktop__item-1 .offer__desktop__inactive-content").fadeIn(500);
+            $(".offer-horizontal-desktop__item-1 .offer__desktop__active-content").fadeIn(500);
 
             $(this).find('.offer__desktop__inactive-content').html(temp_title);
             $(this).find('.offer__desktop__active-content').html(temp_dec);
+            $(".offer-horizontal-desktop__item-1").data("color",$(this).data("color"));
         })
     })
 
