@@ -429,6 +429,14 @@ a {
     padding: 50px 25px;
     text-align: center;
     margin-bottom: -35px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cost-wrapper .costRight__calculator .input-group {
+    width: 80%;
 }
 
 .cost-wrapper .costRight__calculator .costRight-title {
@@ -439,7 +447,7 @@ a {
 }
 
 .cost-wrapper .costRight__calculator input {
-    max-width: 75%;
+
     margin: 0 auto;
     background: transparent;
     border-radius: 0;
@@ -447,6 +455,12 @@ a {
     box-shadow: none;
     border: 2px solid #fff;
 }
+
+.cost-wrapper .costRight__calculator  select{
+    color: var(--main-text-color);
+    border: unset;
+}
+
 
 .cost-wrapper .costRight__calculator a {
     display: inline-block;
@@ -1050,6 +1064,14 @@ Banner SEction
     padding: 50px 25px;
     text-align: center;
     margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.page_calc  .input-group {
+    width: 80%;
 }
 
 .page_calc .costRight-title {
@@ -1060,8 +1082,7 @@ Banner SEction
 }
 
 .page_calc input {
-    max-width: 75%;
-    margin: 0 auto;
+
     background: transparent;
     border-radius: 0;
     outline: none;
@@ -1089,9 +1110,9 @@ Banner SEction
 }
 
 
-.page_calc .input-group  select {
-    width: 30%;
-    background: #18afb4;
+.page_calc  select {
+
+    background-color: #18afb4;
     color: #fff;
     border: unset;
 }

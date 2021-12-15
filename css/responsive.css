@@ -185,7 +185,16 @@
     .page_calc {
         margin-left: unset;
     }
+    .cost-wrapper .costRight__calculator .input-group select {
+        width: 50%;
+    }
+    .cost-wrapper .costRight__calculator .input-group {
+        width: 100%;
+    }
 
+    .page_calc .input-group{
+        width: 100%;
+    }
 }
 
 
