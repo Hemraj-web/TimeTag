@@ -178,6 +178,14 @@
         top: 73%;
     }
 
+    .page_calc .input-group  select {
+        width: 50%;
+    }
+
+    .page_calc {
+        margin-left: unset;
+    }
+
 }
 
 
