@@ -82,7 +82,20 @@
     .three-mobile-section img {
         margin-bottom: -70px;
     }
+    .header_wrapper .navbar .container{
+        background: var(--primary-bg-color);
+    }
 
+
+    .pageBanner_image img  {
+        position: unset;
+        max-width: 100%;
+    }
+
+    .main-cctv-banner-img  {
+        position: unset !important;
+        max-width: 100%;
+    }
 
 }
 
@@ -145,6 +158,25 @@
     .cctv-benefit .cctv-benefit--circle {
         display: none;
     }
+    .ta__btm .ta__btm-right {
+        max-width: 100%;
+    }
+/*     swiper slider spical */
+    .carusole-page .swiper-horizontal > .swiper-scrollbar {
+        transform: unset;
+    }
+    .carusole-page .swiper-slide .swipers__info {
+        max-width: unset;
+    }
+
+    .carusole-page .swiper-button-prev {
+        left: 10px;
+        right: auto;
+    }
+
+    .carusole-page .swiper-button-next,  .carusole-page  .swiper-button-prev{
+        top: 73%;
+    }
 
 }
 
@@ -180,7 +212,7 @@
 
     /*     cost wrapper */
     .cost-wrapper .cost__title h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .cost-wrapper {
@@ -203,18 +235,18 @@
 
     /*    top profit */
     .topProfit_wrapper .topProfit_title > h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     /*     our company */
     .ourCompany_wrapper .ourCompany__right .ourCompany__right-title {
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 25px;
     }
 
     /*    contact form */
     .contact_wrapper .contact-from-title h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .contact_wrapper .form-check label {
@@ -234,7 +266,7 @@
     }
 
     .trueCost_wrapper .trueCost__title h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .page_calc .costRight-title{
         font-size: 20px;
@@ -292,7 +324,7 @@
     }
 
     .cctv-benefit .cctv-benefits__title h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .access_control__plat .ta__btm-right {
@@ -309,6 +341,10 @@
         display: flex;
         justify-content: center;
         margin-top: 30px;
+    }
+
+    .carusole-page .swiper-slide .swipers__info h4 {
+        font-size: 25px;
     }
 }
 

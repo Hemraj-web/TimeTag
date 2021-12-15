@@ -11,6 +11,8 @@
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!--    swiper css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!-- animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- fontawesome cdn   -->
@@ -149,10 +151,10 @@
 <section class="cost-wrapper">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-lg-7">
                 <div class="cost__title">
-                    <h2>WHAT IS THE TRUE COST OF AN <br>
-                        UNRELIABLE OR NON-EXISTENT TIME <br>
+                    <h2>WHAT IS THE TRUE COST OF AN 
+                        UNRELIABLE OR NON-EXISTENT TIME  
                         & ATTENDANCE SOLUTION?
                     </h2>
                 </div>
@@ -569,13 +571,30 @@
 
 
 <!-- jquery cdn -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="js/bootstrap.bundle.min.js"></script>
-
+<!-- swiper Cdn Scripts -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 
 
 </body>
