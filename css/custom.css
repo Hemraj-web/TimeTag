@@ -592,6 +592,12 @@ a {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+.topProfit_desktop .offer-horizontal-desktop-items.offer__dark .offer__desktop__inactive-content h2{
+    color: #3c3c3b !important;
+}
+.topProfit_desktop .offer-horizontal-desktop-items.offer__light .offer__desktop__inactive-content h2{
+    color: #ffffff !important;
+}
 
 .offer-horizontal-desktop__item-4 .offer__desktop__inactive-content h2 {
     color: var(--dark-text-color) !important;
